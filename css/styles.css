@@ -1,0 +1,110 @@
+/*************TAG SELECTOR**************/
+body {
+  background-color: #EDE4E0;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*************CLASS SELECTOR**************/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.title-1 {
+  text-align: left;
+  font-weight: bold;
+  color: hsl(228, 12%, 48%);
+}
+
+.title-2 {
+  text-align: left;
+  font-size: 34px;
+  font-weight: bolder;
+  font-family: 'Fraunces', serif;
+  margin: 10px auto;
+}
+
+.description {
+  text-align: left;
+  display: inline-block;
+  width: 230px;
+  color: hsl(228, 12%, 48%);
+  position: relative;
+  right: 10px;
+}
+
+.rate-1 {
+  text-align: left;
+  color: hsl(158, 36%, 37%);
+  font-size: 36px;
+  font-family: 'Fraunces', serif;
+  margin: 10px 0 10px auto;
+  position: relative;
+  right: 35px;
+}
+
+.rate-2 {
+  text-decoration: line-through;
+  font-size: 11px;
+  font-family: 'Fraunces', serif;
+  color: hsl(228, 12%, 48%);
+
+}
+
+.main-container {
+  height: 450px;
+  width: 600px;
+  margin: 120px auto;
+  position: relative;
+  border-radius: 2%;
+
+}
+
+.left-container {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+
+}
+.product-image {
+  width: 300px;
+  height: 450px;
+  border-radius: 2% 0 0 2%;
+}
+
+.right-container {
+  position: absolute;
+  background-color: white;
+  width: 260px;
+  height: 410px;
+  right: 0;
+  border-radius: 0 2% 2% 0;
+  padding: 20px;
+}
+
+.cart {
+  padding-right: 20px;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px auto;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #2f8f71;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  width:200px;
+}
+
+
+/*************ID SELECTOR**************/
